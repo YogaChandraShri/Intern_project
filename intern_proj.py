@@ -11,7 +11,6 @@ import pickle
 with open("/content/model .pkl", "rb") as f:
     clf= pickle.load(f)
 
-pip install streamlit
 
 import streamlit as st
 import numpy as np
